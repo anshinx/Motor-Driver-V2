@@ -1,0 +1,232 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a575d6d2-ca2d-48e8-a0bf-4cf8349556d4")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 149.86 20.32)
+		(size 101.6 16.51)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00bcd59f-fd2b-4d83-932b-57743fbb57f9")
+		(property "Sheetname" "Power_IN"
+			(at 149.86 19.6084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_IN.kicad_sch"
+			(at 149.86 37.4146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motordriverv2"
+				(path "/a575d6d2-ca2d-48e8-a0bf-4cf8349556d4"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 48.26)
+		(size 46.99 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "00fcc707-3505-4566-ab7e-b71d2235c35b")
+		(property "Sheetname" "FET_DRIVER"
+			(at 204.47 47.5484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "fet_driver.kicad_sch"
+			(at 204.47 108.5346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CA0" input
+			(at 204.47 52.07 180)
+			(uuid "e2513c0c-9349-4969-ad64-cd692505d366")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LIN3" input
+			(at 204.47 76.2 180)
+			(uuid "8050bf46-cfe8-4970-b81c-16ed38bbcd56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LIN2" input
+			(at 204.47 73.66 180)
+			(uuid "f96c7ede-8b62-42cc-ae3c-42718b4f9ebc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LIN1" input
+			(at 204.47 71.12 180)
+			(uuid "9e96d236-6439-456b-90e5-71bceadcad47")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HIN2" input
+			(at 204.47 62.23 180)
+			(uuid "5a6c614c-4073-4e03-ab7d-83e900d76982")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HIN3" input
+			(at 204.47 64.77 180)
+			(uuid "4403fb28-ab58-400e-9523-ab98e51f3033")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAULT" input
+			(at 204.47 55.88 180)
+			(uuid "e197d8be-6c53-4f4c-9c76-4cdd62333d92")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "HIN1" input
+			(at 204.47 59.69 180)
+			(uuid "81653677-20a1-42de-9ace-5ff67c7326c6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "motordriverv2"
+				(path "/a575d6d2-ca2d-48e8-a0bf-4cf8349556d4"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 46.99)
+		(size 31.75 59.69)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3f98f0ea-9852-4672-9467-6a0340feaa03")
+		(property "Sheetname" "mcu"
+			(at 151.13 46.2784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 151.13 107.2646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "motordriverv2"
+				(path "/a575d6d2-ca2d-48e8-a0bf-4cf8349556d4"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

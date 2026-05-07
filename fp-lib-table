@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "IAUS300N08S5N014TATMA1") (type "KiCad") (uri "${KIPRJMOD}/IAUS300N08S5N014TATMA1.pretty") (options "") (descr ""))
+)
