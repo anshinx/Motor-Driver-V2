@@ -3410,7 +3410,7 @@
 				)
 			)
 		)
-		(property "Value" "PHASE_A"
+		(property "Value" "-VDC"
 			(at 239.395 127 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4847,7 +4847,7 @@
 				)
 			)
 		)
-		(property "Value" "PHASE_A"
+		(property "Value" "+VDC"
 			(at 239.395 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
