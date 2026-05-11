@@ -5455,12 +5455,6 @@
 		(uuid "1b6192a2-4e4f-4232-8aa6-f1f482505a24")
 	)
 	(junction
-		(at 266.7 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "290c3c03-3219-442c-bd3e-6cddbb243a2a")
-	)
-	(junction
 		(at 270.51 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5479,10 +5473,22 @@
 		(uuid "2f9958d9-10bd-4e35-ac68-d87a3affc6cc")
 	)
 	(junction
+		(at 266.7 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "37c3317f-568a-4251-b1ee-06324cf9f3b5")
+	)
+	(junction
 		(at 259.08 -16.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48b7e5a2-c823-4f4f-8af1-96c90d8afdcc")
+	)
+	(junction
+		(at 49.53 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f25956a-0fab-44ad-9a38-5f414acb5691")
 	)
 	(junction
 		(at 87.63 34.29)
@@ -6706,6 +6712,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 69.85) (xy 49.53 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62c028b-c692-45e4-8659-04450aaf4395")
+	)
+	(wire
+		(pts
 			(xy 110.49 162.56) (xy 137.16 162.56)
 		)
 		(stroke
@@ -6816,7 +6832,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 82.55) (xy 266.7 82.55)
+			(xy 246.38 82.55) (xy 259.08 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6843,6 +6859,16 @@
 			(type default)
 		)
 		(uuid "bf6e04a1-4318-4a6f-af42-6441c3d2516a")
+	)
+	(wire
+		(pts
+			(xy 266.7 82.55) (xy 274.32 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c12d6694-844d-411d-9222-58bd9461ba7c")
 	)
 	(wire
 		(pts
@@ -7465,7 +7491,7 @@
 		(uuid "f04d0ec0-1a7b-4921-a226-b10f64592db3")
 	)
 	(label "NRST"
-		(at 49.53 69.85 180)
+		(at 46.99 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8322,7 +8348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 266.7 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -10274,7 +10300,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 140.462 83.82 90)
 			(hide yes)
 			(show_name no)
@@ -10907,7 +10933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 123.698 90)
 			(hide yes)
 			(show_name no)
@@ -11108,6 +11134,84 @@
 			(project "motordriverv2"
 				(path "/a575d6d2-ca2d-48e8-a0bf-4cf8349556d4/3f98f0ea-9852-4672-9467-6a0340feaa03"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 49.53 62.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "849a8a76-7e6a-4527-a814-6e8707580160")
+		(property "Reference" "#PWR012"
+			(at 49.53 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 49.53 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 49.53 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a57f87cb-066a-49f9-91fd-e8e63ed03f6e")
+		)
+		(instances
+			(project "motordriverv2"
+				(path "/a575d6d2-ca2d-48e8-a0bf-4cf8349556d4/3f98f0ea-9852-4672-9467-6a0340feaa03"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11712,7 +11816,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 135.382 166.37 90)
 			(hide yes)
 			(show_name no)
@@ -12362,7 +12466,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 266.7 142.748 90)
 			(hide yes)
 			(show_name no)
@@ -12566,6 +12670,87 @@
 			(project "motordriverv2"
 				(path "/a575d6d2-ca2d-48e8-a0bf-4cf8349556d4/3f98f0ea-9852-4672-9467-6a0340feaa03"
 					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ae5d07bc-b80c-4bcd-ba37-74e780609d41")
+		(property "Reference" "R33"
+			(at 52.07 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 49.53 67.564 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 47.752 66.04 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "91097985-decb-4c64-a51f-a847e97a3cda")
+		)
+		(pin "1"
+			(uuid "08db1596-62ae-4c11-864b-dbdaa6760c13")
+		)
+		(instances
+			(project "motordriverv2"
+				(path "/a575d6d2-ca2d-48e8-a0bf-4cf8349556d4/3f98f0ea-9852-4672-9467-6a0340feaa03"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -12854,7 +13039,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00004_1x05_P5.00mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical"
 			(at 242.57 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -13492,7 +13677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 266.7 124.968 90)
 			(hide yes)
 			(show_name no)
@@ -13814,7 +13999,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 266.7 65.278 90)
 			(hide yes)
 			(show_name no)
@@ -14617,7 +14802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 135.382 156.21 90)
 			(hide yes)
 			(show_name no)
@@ -14985,7 +15170,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 270.51 82.55 270)
+		(at 262.89 82.55 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14995,7 +15180,7 @@
 		(dnp no)
 		(uuid "ff37eb1e-67c9-4ad1-bc41-18267a7db5b3")
 		(property "Reference" "R1"
-			(at 269.494 84.582 90)
+			(at 261.874 84.582 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15006,7 +15191,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 268.732 82.55 90)
+			(at 261.112 82.55 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15016,8 +15201,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
-			(at 270.51 80.772 90)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 262.89 80.772 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15028,7 +15213,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 82.55 0)
+			(at 262.89 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15039,7 +15224,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 270.51 82.55 0)
+			(at 262.89 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
