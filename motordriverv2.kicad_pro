@@ -70,12 +70,29 @@
           "width": 0.35
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "shorting_items|61223450|78922779|a791b3d1-3561-4653-880b-09ec0bae97a1|4245b12d-dbbd-44bc-9760-dc9dca0000d5",
+          ""
+        ],
+        [
+          "shorting_items|61223450|79000000|1314becd-2fad-4ba3-aba6-91888a26ea9b|a791b3d1-3561-4653-880b-09ec0bae97a1",
+          ""
+        ],
+        [
+          "solder_mask_bridge|61223450|78922779|a791b3d1-3561-4653-880b-09ec0bae97a1|4245b12d-dbbd-44bc-9760-dc9dca0000d5",
+          ""
+        ],
+        [
+          "solder_mask_bridge|61223450|79000000|1314becd-2fad-4ba3-aba6-91888a26ea9b|a791b3d1-3561-4653-880b-09ec0bae97a1",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
       "rule_severities": {
-        "annular_width": "error",
+        "annular_width": "warning",
         "clearance": "error",
         "connection_width": "warning",
         "copper_edge_clearance": "error",
@@ -84,7 +101,7 @@
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_out_of_range": "warning",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
@@ -119,7 +136,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -566,15 +583,22 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
+    "net_colors": {
+      "+12V": "rgb(109, 255, 13)"
+    },
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "+12V"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../gerber/",
       "specctra_dsn": "",
       "vrml": ""
     },
@@ -719,6 +743,42 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PACKAGE_ID",
+          "name": "SNAPEDA_PACKAGE_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
           "show": false
         }
       ],

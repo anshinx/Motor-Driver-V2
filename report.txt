@@ -1,0 +1,15 @@
+Info: X scale constrained.
+Info: Y scale constrained.
+Plotted to '/home/anshinx/Repos/gerber/motordriverv2-F_Cu.gbr'.
+Plotted to '/home/anshinx/Repos/gerber/motordriverv2-In1_Cu.gbr'.
+Plotted to '/home/anshinx/Repos/gerber/motordriverv2-In2_Cu.gbr'.
+Plotted to '/home/anshinx/Repos/gerber/motordriverv2-B_Cu.gbr'.
+Plotted to '/home/anshinx/Repos/gerber/motordriverv2-F_Paste.gbr'.
+Plotted to '/home/anshinx/Repos/gerber/motordriverv2-B_Paste.gbr'.
+Plotted to '/home/anshinx/Repos/gerber/motordriverv2-F_Silkscreen.gbr'.
+Plotted to '/home/anshinx/Repos/gerber/motordriverv2-B_Silkscreen.gbr'.
+Plotted to '/home/anshinx/Repos/gerber/motordriverv2-F_Mask.gbr'.
+Plotted to '/home/anshinx/Repos/gerber/motordriverv2-B_Mask.gbr'.
+Plotted to '/home/anshinx/Repos/gerber/motordriverv2-Edge_Cuts.gbr'.
+Created Gerber job file '/home/anshinx/Repos/gerber/motordriverv2-job.gbrjob'.
+Info: Done.
