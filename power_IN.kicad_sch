@@ -1742,6 +1742,12 @@
 		(uuid "0aa2720f-e1b2-4433-a1ff-bad7bc7a69da")
 	)
 	(junction
+		(at 165.1 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0fa5194d-0a3a-4557-b939-aee7af6dae31")
+	)
+	(junction
 		(at 99.06 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1758,6 +1764,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1a3a3ec0-378b-4905-918a-6521903285ae")
+	)
+	(junction
+		(at 175.26 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23a51e6c-ef80-45a6-8c4d-6707056a0304")
 	)
 	(junction
 		(at 83.82 45.72)
@@ -1778,6 +1790,18 @@
 		(uuid "521bfe94-6a0a-4551-bec7-d839eefce8a2")
 	)
 	(junction
+		(at 152.4 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58e5b075-5d56-42ec-91f5-c3fc947749ed")
+	)
+	(junction
+		(at 165.1 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7eede8b8-c2bf-4b52-8af9-5bfe22b7307e")
+	)
+	(junction
 		(at 114.3 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1790,16 +1814,48 @@
 		(uuid "a34e85a4-610f-492b-9a39-22db911120b4")
 	)
 	(junction
+		(at 187.96 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5b573a3-c4ad-4d02-bbf3-061781cbaadc")
+	)
+	(junction
 		(at 180.34 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef9cb122-b9f3-448a-816d-412e1d2a9fed")
 	)
 	(junction
+		(at 175.26 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2daa531-2241-4673-b55b-da82dd6e97a9")
+	)
+	(junction
 		(at 114.3 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f83f5a0a-a627-4142-89ad-258cf36b026c")
+	)
+	(wire
+		(pts
+			(xy 165.1 118.11) (xy 175.26 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02427999-2593-446b-85ba-6278d95fee3d")
+	)
+	(wire
+		(pts
+			(xy 152.4 118.11) (xy 165.1 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08819b5d-c510-43ef-8757-d048a1f57025")
 	)
 	(wire
 		(pts
@@ -1923,6 +1979,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 110.49) (xy 152.4 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a7681c4-beba-4e43-b5c4-a8ec473dc190")
+	)
+	(wire
+		(pts
 			(xy 83.82 82.55) (xy 100.33 82.55)
 		)
 		(stroke
@@ -1950,6 +2016,16 @@
 			(type default)
 		)
 		(uuid "ce5ae352-1acc-41d4-9c83-85f75922a434")
+	)
+	(wire
+		(pts
+			(xy 175.26 125.73) (xy 187.96 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf531ff8-ecf7-4167-b79f-21784a24dfc2")
 	)
 	(wire
 		(pts
@@ -1993,6 +2069,26 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 125.73) (xy 175.26 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8a08c2e-3dd9-4c41-b7b9-d085c8d62d09")
+	)
+	(wire
+		(pts
+			(xy 175.26 118.11) (xy 187.96 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8da497b-2635-438b-b19b-3f2b2fc76aee")
+	)
+	(wire
+		(pts
 			(xy 173.99 76.2) (xy 180.34 76.2)
 		)
 		(stroke
@@ -2000,6 +2096,16 @@
 			(type default)
 		)
 		(uuid "fd58d405-7b89-4014-a534-3923ee33627c")
+	)
+	(wire
+		(pts
+			(xy 152.4 125.73) (xy 165.1 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff334a60-26c3-4dd6-89bb-e7c3989a9794")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -2636,6 +2742,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 175.26 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56417423-ccd1-48d4-82dc-86e01402c444")
+		(property "Reference" "C10"
+			(at 179.07 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 179.07 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 176.2252 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb0a580e-6231-4a68-96e6-a48d4be52c5a")
+		)
+		(pin "2"
+			(uuid "665b852d-f575-427e-aa03-9e8c78b5d74b")
+		)
+		(instances
+			(project "motordriverv2"
+				(path "/a575d6d2-ca2d-48e8-a0bf-4cf8349556d4/00bcd59f-fd2b-4d83-932b-57743fbb57f9"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+12V")
 		(at 149.86 76.2 0)
 		(unit 1)
@@ -2708,6 +2896,84 @@
 			(project "motordriverv2"
 				(path "/a575d6d2-ca2d-48e8-a0bf-4cf8349556d4/00bcd59f-fd2b-4d83-932b-57743fbb57f9"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VDC")
+		(at 152.4 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60c68df4-8ff7-423d-a041-babd69de9844")
+		(property "Reference" "#PWR056"
+			(at 152.4 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+VDC"
+			(at 152.4 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+VDC\""
+			(at 152.4 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "618f12b1-41e1-4018-8f55-aaa2b61d2065")
+		)
+		(instances
+			(project "motordriverv2"
+				(path "/a575d6d2-ca2d-48e8-a0bf-4cf8349556d4/00bcd59f-fd2b-4d83-932b-57743fbb57f9"
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -3352,6 +3618,165 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-VDC")
+		(at 187.96 125.73 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b3eacc1-3de3-4f97-ad27-b8f5673418a1")
+		(property "Reference" "#PWR057"
+			(at 187.96 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-VDC"
+			(at 187.96 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-VDC\""
+			(at 187.96 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "433d3756-8d37-459b-90e0-973bf1b31603")
+		)
+		(instances
+			(project "motordriverv2"
+				(path "/a575d6d2-ca2d-48e8-a0bf-4cf8349556d4/00bcd59f-fd2b-4d83-932b-57743fbb57f9"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 165.1 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8b68d772-a3e8-4269-98ca-048d4a812c5e")
+		(property "Reference" "C8"
+			(at 164.846 127.508 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000uF 100V"
+			(at 164.592 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
+			(at 166.0652 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 165.1 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "117bedb8-171d-4e48-866b-97a54462e239")
+		)
+		(pin "2"
+			(uuid "d8a428de-d701-4d47-8cfe-780087244ac9")
+		)
+		(instances
+			(project "motordriverv2"
+				(path "/a575d6d2-ca2d-48e8-a0bf-4cf8349556d4/00bcd59f-fd2b-4d83-932b-57743fbb57f9"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
 		(at 104.14 160.02 180)
 		(unit 1)
@@ -3674,6 +4099,87 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 152.4 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab7a8d44-4282-4965-ba36-a3b185acdf45")
+		(property "Reference" "C7"
+			(at 153.162 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000uF / 100V"
+			(at 148.082 127.254 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D18.0mm_P7.50mm"
+			(at 153.3652 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 152.4 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b403940-a2d6-4e0e-a84f-271ecf140157")
+		)
+		(pin "2"
+			(uuid "20e9344c-09e2-44f2-84b4-4961409118fe")
+		)
+		(instances
+			(project "motordriverv2"
+				(path "/a575d6d2-ca2d-48e8-a0bf-4cf8349556d4/00bcd59f-fd2b-4d83-932b-57743fbb57f9"
+					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 114.3 78.74 0)
 		(unit 1)
 		(body_style 1)
@@ -3828,6 +4334,88 @@
 			(project "motordriverv2"
 				(path "/a575d6d2-ca2d-48e8-a0bf-4cf8349556d4/00bcd59f-fd2b-4d83-932b-57743fbb57f9"
 					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 187.96 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc644d7f-4acf-44c4-ae70-115628690562")
+		(property "Reference" "C9"
+			(at 191.77 120.6499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 191.77 123.1899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+			(at 188.9252 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 187.96 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67f17e56-13ee-42fc-83b7-582485474424")
+		)
+		(pin "2"
+			(uuid "fdcc9a45-b481-4b33-9eb9-632d81bb38d9")
+		)
+		(instances
+			(project "motordriverv2"
+				(path "/a575d6d2-ca2d-48e8-a0bf-4cf8349556d4/00bcd59f-fd2b-4d83-932b-57743fbb57f9"
+					(reference "C9")
 					(unit 1)
 				)
 			)
